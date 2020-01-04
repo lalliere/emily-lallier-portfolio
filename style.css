@@ -1,0 +1,188 @@
+h2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 45px;
+    position: relative;
+    margin-top: -75px;
+    width: 200px;
+    margin-left: -20px;
+}
+body {
+    background-image: url(./images/tiny-squares.png);
+}
+
+.navbar {
+    border-bottom: 2px solid #cccccc;
+}
+
+.navbar-toggler {
+    align-items: end;
+}
+
+.bio-image {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+#content-header {
+    padding-top: 20px;
+    margin-left: 10px;
+    color: #4aaaa5;
+}
+
+#page {
+    min-height: 650px;
+}
+
+#main-box {
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    background: #ffffff;
+    padding-right: 10px;
+    
+}
+
+#bio {
+    color: #777777;
+}
+
+.form {
+    width: 960px; 
+    height: auto;
+    justify-content: center;
+    color: #777777;
+    margin: 20px 180px;
+    padding: 20px;
+}
+
+#portfolio-grid {
+    width: 960px;
+    margin: auto;
+    padding-top: 20px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+
+.card {
+    margin: auto; 
+    
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.footer {
+    clear: both;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #777777;
+    font-size: 8pt;
+    text-align: center;
+    padding: 10px 0px 3px 0px;
+}
+
+
+@media screen and (max-width: 996px) {
+  
+    .bio-image,
+    #bio,
+    #portfolio-grid {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+  
+    #bio,
+    #portfolio-grid {
+      width: 100%;
+      margin-left: 20px; 
+    }
+
+    .bio-image {
+        width: auto;
+        margin-left: 187px;
+        margin-bottom: 25px;
+    }
+
+    #content-header {
+        text-align: center;
+    }
+
+    #main-box {
+        width: 100%;
+    }
+} 
+
+@media screen and (max-width: 579px) {
+    
+    #portfolio-grid {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 543px) {
+      
+    #content-header {
+        text-align: center;
+    }
+
+    #page,
+    .bio-image {
+        width: auto;
+    }
+
+   
+    #main-box {
+        width: auto;
+    }
+}      
+@media screen and (max-width: 394px) {
+      
+    #content-header {
+        text-align: center;
+    }
+    
+    #page,
+    .bio-image {
+        width: auto;
+    }
+
+    #portfolio-grid,
+    #main-box {
+        width: auto;
+    }  
+} 
+@media screen and (max-width: 375px) {
+      
+    #content-header {
+        text-align: center;
+    }
+
+    #page,   
+    .bio-image {
+        width: auto;
+    }
+        
+    #main-box {
+        width: auto;
+    }   
+}
