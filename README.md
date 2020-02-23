@@ -1,6 +1,8 @@
-# Welcome to My Now Responsive Portfolio!
+# Welcome to My Responsive Portfolio!
 
-## About responsive-portfolio
+## Link: https://lalliere.github.io/emily-lallier-portfolio/
+
+## About Emily Lallier's Responsive Portfolio
 
 This is a webpage designed to showcase some of the projects that I will be creating. It has been designed to have compatibility with a variety of screen sizes, so take a look on your PC or tablet! On the go? Check out my portfolio on your mobile phone! Excitingly, there are many ways for me to share my work with you now and have it be visually pleasing to you no matter how you look at it!
 
